@@ -1,7 +1,7 @@
 # GameStore - ASP.NET Core Blazor Game Store
 
 ## Overview
-GameStore is an interactive game storefront built with ASP.NET Core Blazor. The project leverages **Entity Framework Core** as its ORM, provides minimalist APIs for database interactions, and uses **Bootstrap** for a clean, responsive frontend design. This application offers a modern, single-page experience for browsing and purchasing games.
+GameStore is an interactive catalog about games built with ASP.NET Core Blazor. The project leverages **Entity Framework Core** as its ORM, provides minimalist APIs for database interactions, and uses **Bootstrap** for a clean, responsive frontend design. This application offers a modern, single-page experience for browsing and purchasing games.
 
 ## Features
 - **Interactive Blazor Frontend:** Build dynamic, client-side web interfaces using Blazor.
