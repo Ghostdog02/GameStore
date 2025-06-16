@@ -1,0 +1,89 @@
+using System;
+using GameStore.Backend.Dtos;
+
+namespace GameStore.Backend.Endpoints;
+
+public static class GamesEndpoints
+{
+    const string getGameEndpointName = "GetGame";
+
+    private static readonly List<GameDto> games = [
+        new (1, "Street Fighter V", "Fighting",
+            19.99m, new DateOnly(1992, 7, 15)),
+
+        new (2, "Final Fantasy XIV", "Roleplaying",
+            59.99m, new DateOnly(2010, 9, 30)),
+
+        new (3, "Fifa 23",
+        "Sports", 69.99m, new DateOnly(2022, 9, 27))
+    ];
+
+    public static RouteGroupBuilder MapGamesEndpoints(this WebApplication app)
+    {
+        var group = app.MapGroup("games");
+
+        //GET /games
+        group.MapGet("/", () => games);
+
+        //GET /games/1
+        group.MapGet("/{id:int}", (int id) =>
+        {
+            GameDto? game = games.Find(game => game.Id == id);
+
+            return game is null ? Results.NotFound() :
+                Results.Ok(game);
+        })
+        .WithName(getGameEndpointName);
+
+        //POST /games
+        group.MapPost("/", (CreateGameDto newGame) =>
+        {
+            GameDto game = new(
+                games.Count + 1,
+                newGame.Name,
+                newGame.Genre,
+                newGame.Price,
+                newGame.ReleaseDate
+            );
+
+            games.Add(game);
+
+            return Results.CreatedAtRoute(getGameEndpointName,
+                            new { id = game.Id },
+                            game);
+        })
+        .WithParameterValidation();
+
+        //PUT /games/1
+        group.MapPut("/{id:int}", (int id, UpdateGameDto updatedGameDto) =>
+        {
+            var index = games.FindIndex(game => game.Id == id);
+
+            if (index == -1)
+            {
+                return Results.NotFound();
+            }
+
+            games[index] = new GameDto(
+                id,
+                updatedGameDto.Name,
+                updatedGameDto.Genre,
+                updatedGameDto.Price,
+                updatedGameDto.ReleaseDate
+            );
+
+            return Results.NoContent();
+        })
+        .WithParameterValidation();
+
+        //DELETE /games/1
+        group.MapDelete("/{id:int}", (int id) =>
+        {
+            games.RemoveAll(game => game.Id == id);
+
+            return Results.NoContent();
+        });
+
+        return group;
+    }
+}
