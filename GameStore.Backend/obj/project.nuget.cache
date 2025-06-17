@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BBX+LCEZetw=",
+  "dgSpecHash": "1oTCT6/czeE=",
   "success": true,
-  "projectFilePath": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Backend/GameStore.Backend.csproj",
+  "projectFilePath": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Backend/GameStore.Backend.csproj",
   "expectedPackageFiles": [
     "/home/alex-vesely/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/alex-vesely/.nuget/packages/microsoft.bcl.asyncinterfaces/7.0.0/microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

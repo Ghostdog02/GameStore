@@ -1,11 +1,14 @@
 using System;
+using GameStore.Backend.Data;
 using GameStore.Backend.Dtos;
+using GameStore.Backend.Entities;
+using GameStore.Backend.Mapping;
 
 namespace GameStore.Backend.Endpoints;
 
 public static class GamesEndpoints
 {
-    const string getGameEndpointName = "GetGame";
+    const string GetGameEndpointName = "GetGame";
 
     private static readonly List<GameDto> games = [
         new (1, "Street Fighter V", "Fighting",
@@ -33,30 +36,33 @@ public static class GamesEndpoints
             return game is null ? Results.NotFound() :
                 Results.Ok(game);
         })
-        .WithName(getGameEndpointName);
+        .WithName(GetGameEndpointName);
 
         //POST /games
-        group.MapPost("/", (CreateGameDto newGame) =>
+        group.MapPost("/", (CreateGameDto newGame, GameStoreContext dbContext) =>
         {
-            GameDto game = new(
-                games.Count + 1,
-                newGame.Name,
-                newGame.Genre,
-                newGame.Price,
-                newGame.ReleaseDate
-            );
+            Game game = newGame.ToEntity();
+            game.Genre = dbContext.Genres.Find(newGame.GenreId) ??
+                throw new ArgumentException("Invalid genre ID");
 
-            games.Add(game);
+            dbContext.Games.Add(game);
+            dbContext.SaveChanges();
 
-            return Results.CreatedAtRoute(getGameEndpointName,
+            return Results.CreatedAtRoute(GetGameEndpointName,
                             new { id = game.Id },
-                            game);
+                            game.ToDto());
         })
         .WithParameterValidation();
 
         //PUT /games/1
         group.MapPut("/{id:int}", (int id, UpdateGameDto updatedGameDto) =>
-        {
+        {GameDto game = new(
+                games.Count + 1,
+                updatedGameDto.Name,
+                updatedGameDto.Genre,
+                updatedGameDto.Price,
+                updatedGameDto.ReleaseDate
+            );
             var index = games.FindIndex(game => game.Id == id);
 
             if (index == -1)

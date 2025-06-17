@@ -3177,11 +3177,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Backend/GameStore.Backend.csproj",
+      "projectUniqueName": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Backend/GameStore.Backend.csproj",
       "projectName": "GameStore.Backend",
-      "projectPath": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Backend/GameStore.Backend.csproj",
+      "projectPath": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Backend/GameStore.Backend.csproj",
       "packagesPath": "/home/alex-vesely/.nuget/packages/",
-      "outputPath": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Backend/obj/",
+      "outputPath": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Backend/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/alex-vesely/.nuget/NuGet/NuGet.Config"
