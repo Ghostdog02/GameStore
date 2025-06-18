@@ -308,3 +308,4 @@
 /media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Backend/obj/Debug/net9.0/GameStore.Backend.pdb
 /media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Backend/obj/Debug/net9.0/GameStore.Backend.genruntimeconfig.cache
 /media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Backend/obj/Debug/net9.0/ref/GameStore.Backend.dll
+/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Backend/obj/Debug/net9.0/GameStore.Backend.sourcelink.json
