@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Backend/GameStore.Backend.csproj": {}
+    "/home/alexvesely/Projects/GameStore/GameStore.Backend/GameStore.Backend.csproj": {}
   },
   "projects": {
-    "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Backend/GameStore.Backend.csproj": {
+    "/home/alexvesely/Projects/GameStore/GameStore.Backend/GameStore.Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Backend/GameStore.Backend.csproj",
+        "projectUniqueName": "/home/alexvesely/Projects/GameStore/GameStore.Backend/GameStore.Backend.csproj",
         "projectName": "GameStore.Backend",
-        "projectPath": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Backend/GameStore.Backend.csproj",
-        "packagesPath": "/home/alex-vesely/.nuget/packages/",
-        "outputPath": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Backend/obj/",
+        "projectPath": "/home/alexvesely/Projects/GameStore/GameStore.Backend/GameStore.Backend.csproj",
+        "packagesPath": "/home/alexvesely/.nuget/packages/",
+        "outputPath": "/home/alexvesely/Projects/GameStore/GameStore.Backend/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/alex-vesely/.nuget/NuGet/NuGet.Config"
+          "/home/alexvesely/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -79,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.107/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/opt/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
