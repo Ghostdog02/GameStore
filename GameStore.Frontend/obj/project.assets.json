@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/GameStore.Frontend.csproj",
+      "projectUniqueName": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/GameStore.Frontend.csproj",
       "projectName": "GameStore.Frontend",
-      "projectPath": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/GameStore.Frontend.csproj",
+      "projectPath": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/GameStore.Frontend.csproj",
       "packagesPath": "/home/alex-vesely/.nuget/packages/",
-      "outputPath": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/",
+      "outputPath": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/alex-vesely/.nuget/NuGet/NuGet.Config"
@@ -69,7 +69,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.106/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.107/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

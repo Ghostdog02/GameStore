@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3zqMp8urNXLXEmkzzKYUlXfV0yOjXu5/CAfNQgU+Oec=",
+  "Hash": "tokBJ43RJpVRAPxpJQRePYtZLBrPZte5pHLAL9nnXUU=",
   "Source": "GameStore.Frontend",
   "BasePath": "_content/GameStore.Frontend",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "GameStore.Frontend/wwwroot",
       "Source": "GameStore.Frontend",
-      "ContentRoot": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/wwwroot/",
+      "ContentRoot": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/wwwroot/",
       "BasePath": "_content/GameStore.Frontend",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/compressed/602xsdby15-2rxdveo5bz.gz",
+      "Identity": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/compressed/602xsdby15-2rxdveo5bz.gz",
       "SourceId": "GameStore.Frontend",
       "SourceType": "Computed",
-      "ContentRoot": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/GameStore.Frontend",
       "RelativePath": "GameStore.Frontend#[.{fingerprint=2rxdveo5bz}]!.bundle.scp.css.gz",
       "AssetKind": "All",
@@ -28,20 +28,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/scopedcss/projectbundle/GameStore.Frontend.bundle.scp.css",
+      "RelatedAsset": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/scopedcss/projectbundle/GameStore.Frontend.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "ewiu1v39e3",
       "Integrity": "LqgQ6INZzv9orSvFnsu2iiO/89YvisXrnkS8RPIY4IQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/scopedcss/projectbundle/GameStore.Frontend.bundle.scp.css"
+      "OriginalItemSpec": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/scopedcss/projectbundle/GameStore.Frontend.bundle.scp.css"
     },
     {
-      "Identity": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/compressed/hpytjbslhg-z4z4fil66m.gz",
+      "Identity": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/compressed/hpytjbslhg-z4z4fil66m.gz",
       "SourceId": "GameStore.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/GameStore.Frontend",
       "RelativePath": "app#[.{fingerprint=z4z4fil66m}]?.css.gz",
       "AssetKind": "All",
@@ -49,20 +49,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/wwwroot/app.css",
+      "RelatedAsset": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/wwwroot/app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "xo7shte4lb",
       "Integrity": "8ToJsm7BBLxmwLyIaOgVevT4lX1Mso6X49yG1cGiwZY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/wwwroot/app.css"
+      "OriginalItemSpec": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/wwwroot/app.css"
     },
     {
-      "Identity": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/compressed/qc129nah4a-2rxdveo5bz.gz",
+      "Identity": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/compressed/qc129nah4a-2rxdveo5bz.gz",
       "SourceId": "GameStore.Frontend",
       "SourceType": "Computed",
-      "ContentRoot": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/GameStore.Frontend",
       "RelativePath": "GameStore.Frontend#[.{fingerprint=2rxdveo5bz}]?.styles.css.gz",
       "AssetKind": "All",
@@ -70,20 +70,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/scopedcss/bundle/GameStore.Frontend.styles.css",
+      "RelatedAsset": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/scopedcss/bundle/GameStore.Frontend.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "ewiu1v39e3",
       "Integrity": "LqgQ6INZzv9orSvFnsu2iiO/89YvisXrnkS8RPIY4IQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/scopedcss/bundle/GameStore.Frontend.styles.css"
+      "OriginalItemSpec": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/scopedcss/bundle/GameStore.Frontend.styles.css"
     },
     {
-      "Identity": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/scopedcss/bundle/GameStore.Frontend.styles.css",
+      "Identity": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/scopedcss/bundle/GameStore.Frontend.styles.css",
       "SourceId": "GameStore.Frontend",
       "SourceType": "Computed",
-      "ContentRoot": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/scopedcss/bundle/",
+      "ContentRoot": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/scopedcss/bundle/",
       "BasePath": "_content/GameStore.Frontend",
       "RelativePath": "GameStore.Frontend#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -98,13 +98,13 @@
       "Integrity": "HiOBx7jr+VIjPA226pM3ewkfyCU7AHBcnYs6VXEvmFM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/scopedcss/bundle/GameStore.Frontend.styles.css"
+      "OriginalItemSpec": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/scopedcss/bundle/GameStore.Frontend.styles.css"
     },
     {
-      "Identity": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/scopedcss/projectbundle/GameStore.Frontend.bundle.scp.css",
+      "Identity": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/scopedcss/projectbundle/GameStore.Frontend.bundle.scp.css",
       "SourceId": "GameStore.Frontend",
       "SourceType": "Computed",
-      "ContentRoot": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/scopedcss/projectbundle/",
+      "ContentRoot": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/scopedcss/projectbundle/",
       "BasePath": "_content/GameStore.Frontend",
       "RelativePath": "GameStore.Frontend#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -119,13 +119,13 @@
       "Integrity": "HiOBx7jr+VIjPA226pM3ewkfyCU7AHBcnYs6VXEvmFM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/scopedcss/projectbundle/GameStore.Frontend.bundle.scp.css"
+      "OriginalItemSpec": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/scopedcss/projectbundle/GameStore.Frontend.bundle.scp.css"
     },
     {
-      "Identity": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/wwwroot/app.css",
+      "Identity": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/wwwroot/app.css",
       "SourceId": "GameStore.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/wwwroot/",
+      "ContentRoot": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/wwwroot/",
       "BasePath": "_content/GameStore.Frontend",
       "RelativePath": "app#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -146,7 +146,7 @@
   "Endpoints": [
     {
       "Route": "app.css",
-      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/compressed/hpytjbslhg-z4z4fil66m.gz",
+      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/compressed/hpytjbslhg-z4z4fil66m.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -201,7 +201,7 @@
     },
     {
       "Route": "app.css",
-      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/wwwroot/app.css",
+      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/wwwroot/app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -238,7 +238,7 @@
     },
     {
       "Route": "app.css.gz",
-      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/compressed/hpytjbslhg-z4z4fil66m.gz",
+      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/compressed/hpytjbslhg-z4z4fil66m.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -283,7 +283,7 @@
     },
     {
       "Route": "app.z4z4fil66m.css",
-      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/compressed/hpytjbslhg-z4z4fil66m.gz",
+      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/compressed/hpytjbslhg-z4z4fil66m.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -346,7 +346,7 @@
     },
     {
       "Route": "app.z4z4fil66m.css",
-      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/wwwroot/app.css",
+      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/wwwroot/app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -391,7 +391,7 @@
     },
     {
       "Route": "app.z4z4fil66m.css.gz",
-      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/compressed/hpytjbslhg-z4z4fil66m.gz",
+      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/compressed/hpytjbslhg-z4z4fil66m.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -444,7 +444,7 @@
     },
     {
       "Route": "GameStore.Frontend.2rxdveo5bz.bundle.scp.css",
-      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/compressed/602xsdby15-2rxdveo5bz.gz",
+      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/compressed/602xsdby15-2rxdveo5bz.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -507,7 +507,7 @@
     },
     {
       "Route": "GameStore.Frontend.2rxdveo5bz.bundle.scp.css",
-      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/scopedcss/projectbundle/GameStore.Frontend.bundle.scp.css",
+      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/scopedcss/projectbundle/GameStore.Frontend.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -552,7 +552,7 @@
     },
     {
       "Route": "GameStore.Frontend.2rxdveo5bz.bundle.scp.css.gz",
-      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/compressed/602xsdby15-2rxdveo5bz.gz",
+      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/compressed/602xsdby15-2rxdveo5bz.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -605,7 +605,7 @@
     },
     {
       "Route": "GameStore.Frontend.2rxdveo5bz.styles.css",
-      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/compressed/qc129nah4a-2rxdveo5bz.gz",
+      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/compressed/qc129nah4a-2rxdveo5bz.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -668,7 +668,7 @@
     },
     {
       "Route": "GameStore.Frontend.2rxdveo5bz.styles.css",
-      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/scopedcss/bundle/GameStore.Frontend.styles.css",
+      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/scopedcss/bundle/GameStore.Frontend.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -713,7 +713,7 @@
     },
     {
       "Route": "GameStore.Frontend.2rxdveo5bz.styles.css.gz",
-      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/compressed/qc129nah4a-2rxdveo5bz.gz",
+      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/compressed/qc129nah4a-2rxdveo5bz.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -766,7 +766,7 @@
     },
     {
       "Route": "GameStore.Frontend.bundle.scp.css",
-      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/compressed/602xsdby15-2rxdveo5bz.gz",
+      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/compressed/602xsdby15-2rxdveo5bz.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -821,7 +821,7 @@
     },
     {
       "Route": "GameStore.Frontend.bundle.scp.css",
-      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/scopedcss/projectbundle/GameStore.Frontend.bundle.scp.css",
+      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/scopedcss/projectbundle/GameStore.Frontend.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -858,7 +858,7 @@
     },
     {
       "Route": "GameStore.Frontend.bundle.scp.css.gz",
-      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/compressed/602xsdby15-2rxdveo5bz.gz",
+      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/compressed/602xsdby15-2rxdveo5bz.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -903,7 +903,7 @@
     },
     {
       "Route": "GameStore.Frontend.styles.css",
-      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/compressed/qc129nah4a-2rxdveo5bz.gz",
+      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/compressed/qc129nah4a-2rxdveo5bz.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -958,7 +958,7 @@
     },
     {
       "Route": "GameStore.Frontend.styles.css",
-      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/scopedcss/bundle/GameStore.Frontend.styles.css",
+      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/scopedcss/bundle/GameStore.Frontend.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -995,7 +995,7 @@
     },
     {
       "Route": "GameStore.Frontend.styles.css.gz",
-      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStore.Frontend/obj/Debug/net9.0/compressed/qc129nah4a-2rxdveo5bz.gz",
+      "AssetFile": "/media/alex-vesely/3f2349be-107b-4198-b616-88f33e233a57/Projects/GameStoreTutorial/GameStore.Frontend/obj/Debug/net9.0/compressed/qc129nah4a-2rxdveo5bz.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
