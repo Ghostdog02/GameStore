@@ -1,25 +1,40 @@
-# GameStore
+# 🎮 GameStore
 
-## Overview
-GameStore is an interactive catalog about games built with ASP.NET Core Blazor. The project leverages **Entity Framework Core** as its ORM, provides minimalist APIs for database interactions, and uses **Bootstrap** for a clean, responsive frontend design. This application offers a modern, single-page experience for browsing and purchasing games. This is a turorial that can be found here https://www.youtube.com/watch?v=AhAxLiGC7Pc.
+## 🚀 Overview  
+**GameStore** is a feature-rich and visually engaging single-page application (SPA) built with **ASP.NET Core Blazor**. It functions as an interactive game catalogue, offering features such as browsing, adding, updating, and deleting games. Powered by **Entity Framework Core** and styled with **Bootstrap**, GameStore provides a seamless user experience across various devices.
 
-## Features
-- **Interactive Blazor Frontend:** Build dynamic, client-side web interfaces using Blazor.
-- **Entity Framework Core ORM:** Manage database operations efficiently with a robust ORM.
-- **Minimalist APIs:** Lightweight RESTful endpoints to handle CRUD operations seamlessly.
-- **Bootstrap Integration:** Responsive design ensuring optimal user experience across devices.
-- **Game Management:** Options for displaying, adding, updating, and deleting games.
-- **User Experience:** Intuitive navigation and UI to enhance the overall interaction.
+> 💡 This project is based on a tutorial by **Julio Casal**, available on [YouTube](https://www.youtube.com/watch?v=AhAxLiGC7Pc).
 
-## Technologies Used
-- **ASP.NET Core Blazor:** For building interactive SPA-style user interfaces.
-- **Entity Framework Core:** To manage data access through an object-relational mapping (ORM) framework.
-- **Minimal APIs:** For implementing streamlined and efficient API endpoints.
-- **Bootstrap:** For responsive, mobile-first UI design.
-- **Database Options:** Compatible with SQL Server, SQLite, or PostgreSQL (configure via connection strings).
+---
 
-## Installation & Setup
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/yourusername/GameStore.git
+## ✨ Features  
+- 🎨 **Interactive Blazor Frontend** — Build dynamic web interfaces with seamless client-side interaction  
+- 🗃️ **Entity Framework Core ORM** — Handle database operations efficiently with robust data models  
+- 🧩 **Minimal APIs** — Lightweight, high-performance endpoints for clean and fast CRUD operations  
+- 📱 **Responsive UI** — Built with Bootstrap for consistent design across all screen sizes  
+- 🕹️ **Game Management** — View, add, edit, and delete games from the catalogue  
+- 🧭 **Intuitive UX** — Clean layout with straightforward navigation and interaction
 
+---
+
+## 🛠️ Tech Stack  
+
+| Technology                   | Purpose                                        |
+|------------------------------|------------------------------------------------|
+| **ASP.NET Core Blazor**      | SPA development with C# on the web             |
+| **Entity Framework Core**    | Database interaction via ORM                   |
+| **Minimal APIs**             | Lightweight RESTful endpoints                  |
+| **Bootstrap**                | Responsive and modern UI design                |
+| **SQLite**                   | Flexible database options (via connection string) |
+
+---
+
+## 🧪 Getting Started
+
+### 🔧 Prerequisites  
+- [.NET 9 SDK](https://dotnet.microsoft.com/en-us/download) or later  
+- SQL Server, SQLite, or PostgreSQL (your choice)
+
+### 📥 Clone the Repository  
+```bash
+git clone https://github.com/Ghostdog02/GameStore.git
