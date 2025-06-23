@@ -7,7 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
                 .AddInteractiveServerComponents();
 
-var gameStoreBackendUrl = "http://localhost:5153";
+var gameStoreBackendUrl = builder.Configuration["GameStoreBackendUrl"]
+    ?? throw new InvalidOperationException("GameStoreBackendUrl is not configured.");
 
 builder.Services.AddHttpClient<GamesClient>(
     client => client.BaseAddress = new Uri(gameStoreBackendUrl));
