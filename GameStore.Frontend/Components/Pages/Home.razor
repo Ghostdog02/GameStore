@@ -1,5 +1,6 @@
 ﻿@page "/"
 @inject GamesClient Client
+@attribute [StreamRendering]
 
 <PageTitle>Game Catalog</PageTitle>
 
@@ -7,7 +8,7 @@
     <a class="btn btn-primary" role="button" href="/editgames">New Game</a>
 </div>
 
-@if(games is null)
+@if (games is null)
 {
     <p><em>Loading...</em></p>
 }
@@ -37,9 +38,7 @@ else
                             <a class="btn btn-primary me-2" role="button" href="@GameUrl(game.Id)">
                                 <i class="bi bi-pencil"></i>
                             </a>
-                            <button class="btn btn-danger" 
-                                    data-bs-toggle="modal" 
-                                    data-bs-target="@GetDeleteGameModalId(game)">
+                            <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="@GetDeleteGameModalId(game)">
                                 <i class="bi bi-x-lg"></i>
                             </button>
                         </div>

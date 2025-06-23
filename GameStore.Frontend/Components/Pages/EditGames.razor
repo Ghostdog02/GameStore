@@ -29,22 +29,21 @@ else
           <label for="genre" class="form-label">Genre:</label>
           <InputSelect id="genre" @bind-Value="gameDetails.GenreId" class="form-control">
             <option value="">Select a genre</option>
-            <option value="">Select a genre</option>
             @foreach (var genre in genres)
             {
-                <option value="@genre.Id">@genre.Name</option>
+              <option value="@genre.Id">@genre.Name</option>
             }
           </InputSelect>
           <ValidationMessage For="() => gameDetails.GenreId" />
         </div>
         <div class="mb-3">
           <label for="price" class="form-label">Price:</label>
-          <InputNumber id="price" @bind-Value="gameDetails.Price" class="form-control"/>
+          <InputNumber id="price" @bind-Value="gameDetails.Price" class="form-control" />
           <ValidationMessage For="() => gameDetails.Price" />
         </div>
         <div class="mb-3">
           <label for="releaseDate" class="form-label">Release Date:</label>
-          <InputDate id="releaseDate" @bind-Value="gameDetails.ReleaseDate" class="form-control"/>
+          <InputDate id="releaseDate" @bind-Value="gameDetails.ReleaseDate" class="form-control" />
         </div>
         <button type="submit" class="btn btn-primary">Save</button>
         <a role="button" class="btn btn-secondary" href="/">Cancel</a>
@@ -55,62 +54,62 @@ else
 
 
 @code {
-    [Parameter]
-    public int? Id { get; set; }
+  [Parameter]
+  public int? Id { get; set; }
 
-    [SupplyParameterFromForm]
-    private GameDetails? gameDetails { get; set; }
+  [SupplyParameterFromForm]
+  private GameDetails? gameDetails { get; set; }
 
-    private Genre[]? genres;
-    private string title = string.Empty;
+  private Genre[]? genres;
+  private string title = string.Empty;
 
-    protected override async Task OnParametersSetAsync()
+  protected override async Task OnParametersSetAsync()
+  {
+    if (gameDetails is not null)
     {
-        if (gameDetails is not null)
-        {
-            return;
-        }
-
-        if (Id is not null)
-        {
-            gameDetails = await GamesClient.GetGameAsync(Id.Value);
-            title = $"Edit Game: {gameDetails.Name}";
-        }
-
-        else
-        {
-            gameDetails = new() 
-            {
-                Name = string.Empty,
-                ReleaseDate = DateOnly.FromDateTime(DateTime.UtcNow),
-            };
-
-            title = "New Game"; 
-
-            
-        }
+      return;
     }
 
-    protected override async Task OnInitializedAsync()
+    if (Id is not null)
     {
-        genres = await GenresClient.GetGenresAsync();
+      gameDetails = await GamesClient.GetGameAsync(Id.Value);
+      title = $"Edit Game: {gameDetails.Name}";
     }
 
-    private async Task HandleSubmitAsync()
-    { 
-        ArgumentNullException.ThrowIfNull(gameDetails);
+    else
+    {
+      gameDetails = new()
+      {
+        Name = string.Empty,
+        ReleaseDate = DateOnly.FromDateTime(DateTime.UtcNow),
+      };
 
-        if (Id is null)
-        {
-            await GamesClient.AddGameAsync(gameDetails);
-        }
+      title = "New Game";
 
-        else
-        {
-            gameDetails.Id = Id.Value;
-            await GamesClient.UpdateGameAsync(gameDetails);
-        }
- 
-        NavigationManager.NavigateTo("/");
+
     }
+  }
+
+  protected override async Task OnInitializedAsync()
+  {
+    genres = await GenresClient.GetGenresAsync();
+  }
+
+  private async Task HandleSubmitAsync()
+  {
+    ArgumentNullException.ThrowIfNull(gameDetails);
+
+    if (Id is null)
+    {
+      await GamesClient.AddGameAsync(gameDetails);
+    }
+
+    else
+    {
+      gameDetails.Id = Id.Value;
+      await GamesClient.UpdateGameAsync(gameDetails);
+    }
+
+    NavigationManager.NavigateTo("/");
+  }
 }
