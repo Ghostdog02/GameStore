@@ -3,7 +3,7 @@
 ## 🚀 Overview  
 **GameStore** is a feature-rich and visually engaging single-page application (SPA) built with **ASP.NET Core Blazor**. It functions as an interactive game catalogue, offering features such as browsing, adding, updating, and deleting games. Powered by **Entity Framework Core** and styled with **Bootstrap**, GameStore provides a seamless user experience across various devices.
 
-> 💡 This project is based on a tutorial by **Julio Casal**, available on [YouTube](https://www.youtube.com/watch?v=AhAxLiGC7Pc).
+> 💡 This project is based on a Blazor course made by **Julio Casal**, available on [YouTube](https://www.youtube.com/watch?v=AhAxLiGC7Pc).
 
 ---
 
